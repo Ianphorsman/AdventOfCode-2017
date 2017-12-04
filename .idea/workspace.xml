@@ -21,33 +21,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="day_3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day_3.py">
+      <file leaf-file-name="day_4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day_4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6825397">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="day_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.23809524">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day_3_data_1" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day_3_data_1">
+      <file leaf-file-name="day_4_data_1" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day_4_data_1">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <caret line="511" column="65" selection-start-line="511" selection-start-column="65" selection-end-line="511" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -72,6 +60,8 @@
         <option value="$PROJECT_DIR$/day_3_data_1" />
         <option value="$PROJECT_DIR$/day_1.py" />
         <option value="$PROJECT_DIR$/day_3.py" />
+        <option value="$PROJECT_DIR$/day_4_data_1" />
+        <option value="$PROJECT_DIR$/day_4.py" />
       </list>
     </option>
   </component>
@@ -134,7 +124,7 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.day_3">
+  <component name="RunManager" selected="Python.day_4">
     <configuration default="false" name="day_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -182,6 +172,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AdventOfCode-2017" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="day_4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AdventOfCode-2017" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -308,16 +315,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.day_1" />
       <item index="1" class="java.lang.String" itemvalue="Python.day_2" />
       <item index="2" class="java.lang.String" itemvalue="Python.day_3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.day_4" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.day_3" />
-        <item index="1" class="java.lang.String" itemvalue="Python.day_1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.day_2" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.day_4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.day_3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.day_1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.day_2" />
       </list>
     </recent_temporary>
   </component>
@@ -420,11 +429,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6825397">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_4_data_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="511" column="65" selection-start-line="511" selection-start-column="65" selection-end-line="511" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23809524">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
