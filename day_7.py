@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+
 def part_1():
     with open('day_7_data_1') as file:
         data = list(map(lambda line: line.strip().split(), file.readlines()))
@@ -40,6 +41,7 @@ def part_2():
 
         return weigh_tree(children, weights, root, data)
 
+
 def weigh_tree(children, weights, root, data):
     expected_weight = None
     total = weights[root]
@@ -53,6 +55,7 @@ def weigh_tree(children, weights, root, data):
             print(get_node_imbalance(child, weight - expected_weight, data))
 
     return total
+
 
 def get_node_imbalance(child, imbalance, data):
     return int(list(filter(lambda line: line[0] == child, data))[0][1].strip('()')) - imbalance
