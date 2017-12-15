@@ -14,14 +14,14 @@ def part_1():
                 pipeline[num].append(left)
 
         q = [0]
-        vis = set()
+        s = set()
         while q:
             a = q.pop()
             for b in pipeline[a]:
-                if b not in vis:
-                    vis.add(b)
+                if b not in s:
+                    s.add(b)
                     q.append(b)
-        return len(vis)
+        return len(s)
 
 
 def part_2():
@@ -37,18 +37,18 @@ def part_2():
                 pipeline[num].append(left)
 
         print(pipeline)
-        vis = set()
+        s = set()
         groups = 0
         for i in range(len(data)):
-            if i in vis:
+            if i in s:
                 continue
             groups += 1
             q = [i]
             while q:
                 a = q.pop()
                 for b in pipeline[a]:
-                    if b not in vis:
-                        vis.add(b)
+                    if b not in s:
+                        s.add(b)
                         q.append(b)
         return groups
 
