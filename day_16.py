@@ -36,5 +36,19 @@ print(part_1())
 
 def part_2():
     with open('day_16_data_1') as file:
-        data = file.read().split(',')
-        return data
+        dance = file.read().split(',')
+        programs = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p']
+        memo = []
+        iterations = 1000000000
+        for i in range(iterations):
+            string = ''.join(programs)
+            if string in memo:
+                return memo[iterations % i]
+            memo.append(string)
+
+            for move in dance:
+                programs = perform_dance_move(programs, move)
+
+print(part_2())
+
+
