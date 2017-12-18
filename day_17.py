@@ -1,3 +1,5 @@
+from collections import deque
+
 
 def part_1():
     with open('day_17_data_1') as file:
@@ -12,10 +14,21 @@ def part_1():
 
 
 def part_2():
-    with open('day-17_data_1') as file:
-        num = int(file.read().strip())
+    with open('day_17_data_1') as file:
+        buffer_size = int(file.read().strip())
+        buffer = deque([0])
 
-        return num
+        for i in range(1, 50000000 + 1):
+            buffer.rotate(-buffer_size)
+            buffer.append(i)
+            if i % 100000 == 0:
+                print(i)
+        val = None
+        while val != 0:
+            val = buffer.popleft()
+        return buffer.popleft()
 
 
 print(part_1())
+
+print(part_2())
